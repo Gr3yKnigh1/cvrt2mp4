@@ -8,7 +8,7 @@ is_exe_exists = lambda name: shutil.which(name) is not None
 
 
 if not is_exe_exists("ffmpeg"):
-    raise Exception("This program require 'ffmpeg' executable in PATH variable")
+    raise Exception("This program requires 'ffmpeg' executable path in 'PATH' variable")
 
 
 parser = argparse.ArgumentParser()
