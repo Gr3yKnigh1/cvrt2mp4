@@ -5,7 +5,7 @@ Converting all videos from target directory to mp4. Stealed this code from [this
 ## Dependencies
 
 Requires manual installation of 'ffmpeg' converter. Add executable to PATH variable.
-[ffmpeg download](https://www.ffmpeg.org/)
+[FFmpeg download page](https://www.ffmpeg.org/)
 
 ## Usage
 ```Shell
